@@ -5,7 +5,7 @@ const _ = require("lodash");
 const date = require(__dirname+"/date.js")
 const mongoose = require("mongoose");
 
-mongoose.connect("DATABASE_URI")
+mongoose.connect(DATABASE_URI)
 
 const app = express();
 
